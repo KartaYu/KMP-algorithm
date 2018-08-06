@@ -1,13 +1,5 @@
-//============================================================================
-// Name        : test1.cpp
-// Author      : KartaYu
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
-
 /*
- * C++ Program to Implement Knuth¡VMorris¡VPratt Algorithm (KMP)
+ * C++ Program to Implement KnuthÂ¡VMorrisÂ¡VPratt Algorithm (KMP)
  */
 #include <iostream>
 #include <cstring>
@@ -27,10 +19,7 @@ void prefix_KMP(string pattern , int failure[]){
 			j++;
 		}
 		failure[i] = j;
-
-
 	}
-
 }
 
 bool KMP(string pattern, string text){
@@ -52,13 +41,8 @@ bool KMP(string pattern, string text){
 		if(j == (pattern.size() - 1)){
 			return 1;
 		}
-
-
-
 	}
-
 	return 0;
-
 }
 
 
