@@ -1,6 +1,6 @@
 KMP-algorithm
 ----------------
-Just for pratice coding
+Praticing coding
 
 Compiler
 ----------------
